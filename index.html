@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOOBle - MevBrowser</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="booble">
-      <img src="logo.png" alt="" srcset="" width="626" height="183" />
-    </div>
-    <div id="search">
-      <input id="mason" type="text" />
-
-      <div id="submit">
-        <input type="submit" value="Search" onclick="mason()" />
-      </div>
-    </div>
-    <div id="footer">Made with ❤ by Mev</div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>BOOBle - MevBrowser</title>
+		<script src="/js/script.js" defer></script>
+		<link rel="stylesheet" href="/css/style.css" />
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+	</head>
+	<body>
+		<div id="booble" class="noselect">
+			<img src="/images/logo.png" alt="BOOBLE" width="626" height="183" />
+		</div>
+		<form id="searchForm" action="">
+			<div id="search" class="noselect">
+				<input id="query" type="text" autocomplete="off" />
+				<div id="submit">
+					<input type="submit" value="Search" />
+				</div>
+			</div>
+		</form>
+		<div id="footer" class="noselect">Made with ❤ by Mev</div>
+	</body>
 </html>
