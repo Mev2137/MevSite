@@ -38,6 +38,7 @@ const darlingCodeChecker = (event) => {
   audio.play();
   setInterval(loop, 800);
 };
+document.addEventListener("keydown", darlingCodeChecker);
 
 let x = 0;
 
