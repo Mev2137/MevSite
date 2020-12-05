@@ -4,9 +4,9 @@ Booble is the future of web browsers!
 
 # Key Features
 
-- Amazing UI/UX - our team spent a long time on the user expereice!
+- Amazing UI/UX - our team spent a long time on the user experience!
 - Light Weight - it's really small!
-- Fully origianl logo - it's our brandy only!
+- Fully original logo - it's our brandy only!
 
 # Contributors
 
