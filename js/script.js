@@ -36,6 +36,7 @@ const darlingCodeChecker = (event) => {
   document.body.style.backgroundImage = imageUrl;
 
   audio.play();
+  audio.loop = true;
   setInterval(loop, 800);
 };
 document.addEventListener("keydown", darlingCodeChecker);
@@ -47,4 +48,15 @@ const TitleText = ["R", "RY", "RYU", "RYUK", "RYUKO", "uwu"];
 function loop() {
   document.getElementsByTagName("title")[0].innerHTML =
     TitleText[x++ % TitleText.length];
+}
+
+function darkmode() {
+  var element = document.body;
+  element.classList.toggle("dark-mode");
+  var image = document.getElementById("myImage");
+  if (image.src.match("images/lightmode.png")) {
+    image.src = "images/darkmode.png";
+  } else {
+    image.src = "images/lightmode.png";
+  }
 }
