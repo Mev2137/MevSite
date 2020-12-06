@@ -8,3 +8,9 @@
   font-size: 50px;
   text-align: center;
 }
+mark {
+  color: black;
+  background-color: pink;
+  padding: 4px;
+  border-radius: 10px;
+}
