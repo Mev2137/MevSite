@@ -1,13 +1,23 @@
 #error-container {
+  overflow-wrap: break-word;
   width: 600px;
   height: 800px;
-
   margin-left: auto;
   margin-right: auto;
   margin-top: 2%;
-  font-size: 50px;
+  font-size: 30px;
   text-align: center;
 }
+
+.extra-margin {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.notFoundUrl {
+  color: blue;
+}
+
 mark {
   color: black;
   background-color: pink;
