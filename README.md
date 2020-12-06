@@ -1,14 +1,14 @@
 # [mev2137.github.io](https://mev2137.github.io)
 
-Booble is the future of web browsers!
+Welcome to my trash website
 
 # Key Features
 
-- Amazing UI/UX - our team spent a long time on the user expereice!
-- Light Weight - it's really small!
-- Fully origianl logo - it's our brandy only!
+- Awful nav-bar 
+- disgusting color pallete
+- var myLogo = "M" + "V";
 
 # Contributors
 
 - [Mev](https://github.com/mev2137)
-- [pxseu](https://github.com/pxseu)
+
