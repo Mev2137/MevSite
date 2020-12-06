@@ -1,0 +1,56 @@
+:root {
+	--logoSizeBig: 400px;
+	--logoSizeSmall: 70px;
+}
+
+.app {
+	position: absolute;
+	left: 50%;
+	top: 15px;
+	width: 100%;
+	transform: translate(-50%);
+	display: flex;
+	background-color: #333;
+	max-width: 600px;
+}
+
+.logo {
+	flex: var(--logoSizeSmall);
+	background-color: #555;
+	padding: 20px;
+}
+
+.hero {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 70px;
+	height: 70px;
+}
+
+.text {
+	flex: calc(100% - var(--logoSizeSmall));
+	padding: 20px;
+}
+
+.mev {
+	color: red;
+}
+
+@media screen and (min-width: 970px) {
+	.app {
+		max-width: 1000px;
+	}
+	.hero {
+		width: 300px;
+		height: 300px;
+	}
+	.logo {
+		flex: var(--logoSizeBig);
+	}
+
+	.text {
+		flex: calc(100% - var(--logoSizeBig));
+	}
+}

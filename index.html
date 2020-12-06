@@ -3,29 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BOOBle - MevBrowser</title>
-    <script src="/js/script.js" defer></script>
-    <link rel="stylesheet" href="/css/style.css" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/953c1e17da.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>MevSite</title>
   </head>
   <body>
-    <div id="booble" class="noselect">
-      <img src="/images/logo.png" alt="BOOBLE" width="626" height="183" />
-    </div>
-    <form id="searchForm" action="">
-      <div id="search" class="noselect">
-        <input id="query" type="text" autocomplete="off" />
-        <div id="submit">
-          <input type="submit" value="Search" />
-        </div>
+    <nav class="navbar">
+      <ul class="navbar-nav">
+        <li class="nav-logo">
+          <a href="index.html" class="nav-link"
+            >&nbsp;&nbsp;&nbsp;
+            <i class="fas fa-angle-double-right fa-3x"></i>
+            <span class="link-text">MEVSITE</span>
+          </a>
+        </li>
+        <li class="booble">
+          <a href="http://booble.pxseu.com/" target="_blank" class="nav-link"
+            >&nbsp;<img src="img/booble.png" width="60rem" />
+            <span class="link-text">BOOBLE</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" target="_blank" class="nav-link"
+            >&nbsp;&nbsp;&nbsp;<i class="far fa-user fa-3x"></i>
+            <span class="link-text">ABOUT</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="secret.html" target="_blank" class="nav-link">
+            &nbsp;&nbsp;&nbsp;<i class="fas fa-user-secret fa-3x"></i>
+            <span class="link-text">SECRET</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="edits.html" target="_blank" class="nav-link">
+            &nbsp;&nbsp;<i class="fas fa-video fa-3x"></i>
+            <span class="link-text">EDITS</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="secret.html" target="_blank" class="nav-link">
+            &nbsp;&nbsp;<i class="fas fa-list-alt fa-3x"></i>
+            <span class="link-text">MORE</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div id="socials">
+        <a href="mailto:contact.mev2137@gmail.com"
+          ><div class="social"><i class="far fa-envelope"></i></div
+        ></a>
+        <a href="https://www.facebook.com/MevDsgn1" target="_blank"
+          ><div class="social">
+            <i class="fab fa-facebook"></i></div
+        ></a>
+        <a href="https://www.instagram.com/szymongrysiewicz1/" target="_blank"
+          ><div class="social"><i class="fab fa-instagram"></i></div
+        ></a>
+        <a
+          href="https://www.youtube.com/channel/UCJN1UoQZGOHpaEwFulGpdag?view_as=subscriber"
+          target="_blank"
+          ><div class="social"><i class="fab fa-youtube"></i></div
+        ></a>
+        <a href="https://github.com/MevWebDev" target="_blank"
+          ><div class="social"><i class="fab fa-github"></i></div
+        ></a>
       </div>
-    </form>
-    <div id="footer" class="noselect">Made with ❤ by Mev</div>
-    <div id="darkmode" onclick="darkmode()">
-      <img src="images/darkmode.png" id="myImage" width="50px" height="50px" />
-    </div>
-    <div id="secrets">
-      <a href="secret.html" target="_blank">Secrets ;3</a>
-    </div>
+      <div id="logo">
+        <img src="img/mev-logo.png" width="400px;" height="400px" />
+      </div>
+      <div id="logo-text">
+        <h1>code/anime/gaming</h1>
+        <h2>contact.mev2137@gmail.com</h2>
+      </div>
+    </main>
   </body>
 </html>
