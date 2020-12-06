@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
 #error-container {
   overflow-wrap: break-word;
   width: 600px;
