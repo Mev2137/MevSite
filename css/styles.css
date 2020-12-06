@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   left: 50%;
   transform: translate(-50%);
-  margin-top: 10rem;
+  margin-top: 18rem;
 }
 
 #logo-text {
