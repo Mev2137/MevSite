@@ -60,19 +60,38 @@ body::-webkit-scrollbar-thumb {
 }
 .link-text {
   display: none;
+  margin-left: 2rem;
+  font-size: 25px;
+  font-weight: 550;
+}
+.link-text-booble {
+  display: none;
   margin-left: 1rem;
   font-size: 25px;
+  font-weight: 550;
+}
+.link-text-logo {
+  display: none;
+  margin-left: 1rem;
+  font-size: 25px;
+  font-weight: 600;
 }
 .nav-link svg {
   min-width: 2rem;
   margin: 0 1.5rem;
 }
 .navbar:hover {
-  width: 16rem;
+  width: 13rem;
 
   transition: 200ms;
 }
 .navbar:hover .link-text {
+  display: block;
+}
+.navbar:hover .link-text-booble {
+  display: block;
+}
+.navbar:hover .link-text-logo {
   display: block;
 }
 
