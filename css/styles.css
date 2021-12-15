@@ -142,3 +142,20 @@ body::-webkit-scrollbar-thumb {
 .social:hover {
   color: #bbbbbb;
 }
+#box{
+	text-align: center; 
+	position: absolute;
+	padding: 20px;
+	font-size: 20px;
+	bottom: 20;
+	left: 0;
+	color: white;
+	background-color: blue;
+	backdrop-filter: blur(20px);
+	margin: 200px;
+	border-radius: 50px;
+        margin-left:40%;
+        
+        width:400px;
+        
+}
